@@ -14,4 +14,7 @@ console.log(output); // --> 'Welcome, Adrian!'
 
 function checkAge(name, age) {
   // your code here
+  /* START SOLUTION */
+  return age < 21 ? "Go home, " + name + "!" : "Welcome, " + name + "!";
+  /* END SOLUTION */
 }
